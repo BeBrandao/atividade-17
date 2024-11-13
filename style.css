@@ -1,0 +1,12 @@
+body {
+    background: url("cenario.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#imagem {
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    top: 65%;
+    left: 0;
+}
