@@ -51,11 +51,12 @@ function moveLeft(){
     }
 }
 
-sobe = 65
 function jump(){
     var img = document.querySelector("#imagem");
-    sobe -= 5
-    img.style.top = sobe + "%"
+    img.style.top = 40 + "%"
+    setTimeout(() => {
+        img.style.top = "62.5%";
+    }, 350);
 }
 
 function move(event){
